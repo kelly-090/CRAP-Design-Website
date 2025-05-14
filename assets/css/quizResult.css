@@ -1,0 +1,103 @@
+
+h2 {
+  font-size: 38px;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+/* making choices center */
+.choices{
+  position : relative;
+
+  padding-left: 100px;
+  padding-right: 80px;
+  padding-bottom: 30px;
+}
+
+.pictureChoices{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3%;
+}
+
+.pictureChoices img {
+  width: 40%;
+  height: auto;
+}
+
+.letter::after {
+  content: ")";
+  margin-right: 0.3em; /* Optional spacing */
+}
+
+/* checkmark styling */
+
+.checkMark1 {
+  position: absolute;
+  top : 10px;
+  left : 70px;
+  width: 20px;
+  height : auto;
+}
+
+.checkMark2 {
+  position: absolute;
+  top : 47px;
+  left : 70px;
+  width: 20px;
+  height : auto;
+}
+
+.checkMark3 {
+  position: absolute;
+  top : 84px;
+  left : 70px;
+  width: 20px;
+  height : auto;
+}
+
+.checkMark4 {
+  position: absolute;
+  top : 121px;
+  left : 70px;
+  width: 20px;
+  height : auto;
+}
+/* answer card styling */
+
+.answer {
+  /* Background/drop shadow */
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+
+  /* Centering/Positioning */
+  width: 60%;
+  max-width: 1200px; /* Randomly chosen */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+.answer h2 {
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+.question {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+#score {
+  font-weight: normal;
+  margin-left: 100px;
+}
+
+.wrongAnswer{
+  color: red;
+}
+
+.wrongAnswer {
+  background-color: red;
+}
